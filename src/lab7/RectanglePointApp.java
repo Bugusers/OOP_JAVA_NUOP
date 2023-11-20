@@ -17,7 +17,7 @@ public class RectanglePointApp {
     private static JPanel resultPanel;
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new RectanglePointApp().createAndShowGUI());
+        SwingUtilities.invokeLater(() -> new lab7.RectanglePointApp().createAndShowGUI());
     }
 
     private void createAndShowGUI() {
@@ -35,7 +35,7 @@ public class RectanglePointApp {
 
         resultFrame = new JFrame("Result");
         resultFrame.setSize(400, 400);
-        resultPanel = new DrawingPanel();
+        resultPanel = new lab7.RectanglePointApp.DrawingPanel();
         resultFrame.add(resultPanel);
         resultFrame.setResizable(false);
 
