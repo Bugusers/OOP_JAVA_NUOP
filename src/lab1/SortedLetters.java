@@ -85,4 +85,5 @@ public class SortedLetters {
         // Close the scanner to release resources.
         sc.close();
     }
+
 }

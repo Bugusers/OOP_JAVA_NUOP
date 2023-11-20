@@ -1,6 +1,5 @@
 package lab5.instrument;
 
-import lab5.instrument.Instrument;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -12,7 +11,6 @@ import java.util.Comparator;
  */
 public class InstrumentCollection {
     private List<Instrument> instruments;
-
 
 
     /**
